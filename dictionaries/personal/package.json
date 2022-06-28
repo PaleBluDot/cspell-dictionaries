@@ -1,0 +1,37 @@
+{
+	"name": "@palebludot/cspell-personal",
+	"version": "1.0.0",
+	"description": "Personal dictionary for CSpell.",
+	"author": "Pavel Sanchez",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 cspell-tools-cli compile \"personal.txt\" -o .",
+		"test": "personal.txt \"personal.txt\" | cspell -v -c ./cspell-ext.json \"--local=*\" \"--languageId=en-US\" stdin",
+		"prepublishOnly": "echo pre-publish",
+		"prepare": "npm run build"
+	},
+	"keywords": [
+		"cspell",
+		"cspell-ext",
+		"personal",
+		"personal",
+		"dictionary",
+		"spelling"
+	],
+	"files": [
+		"personal.txt",
+		"cspell-ext.json",
+		"*.js",
+		"*.d.ts"
+	],
+	"exports": {
+		".": "./cspell-ext.json",
+		"./cspell": "./cspell-ext.json",
+		"./cspell-ext.json": "./cspell-ext.json"
+	},
+	"homepage": "https://github.com/PaleBluDot/cspell-dictionaries/personal#readme",
+	"repository": "https://github.com/PaleBluDot/cspell-dictionaries/.git"
+}
