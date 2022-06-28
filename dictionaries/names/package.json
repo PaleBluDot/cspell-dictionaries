@@ -1,0 +1,36 @@
+{
+	"name": "@palebludot/cspell-names",
+	"version": "1.0.1-alpha.0",
+	"description": "Names dictionary for CSpell.",
+	"author": "Pavel Sanchez",
+	"license": "MIT",
+	"private": true,
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "cspell-tools-cli compile \"names.txt\" -o .",
+		"test": "head -n 100 \"names.txt\" | cspell -v -c ./cspell-ext.json \"--local=*\" \"--languageId=en-US\" stdin",
+		"prepublishOnly": "echo pre-publish",
+		"prepare": "yarn run build"
+	},
+	"keywords": [
+		"cspell",
+		"cspell-ext",
+		"names",
+		"dictionary",
+		"spelling"
+	],
+	"files": [
+		"names.txt.gz",
+		"cspell-ext.json",
+		"*.js",
+		"*.d.ts"
+	],
+	"exports": {
+		".": "./cspell-ext.json",
+		"./cspell": "./cspell-ext.json",
+		"./cspell-ext.json": "./cspell-ext.json"
+	},
+	"homepage": "https://github.com/PaleBluDot/cspell-dictionaries#readme"
+}
