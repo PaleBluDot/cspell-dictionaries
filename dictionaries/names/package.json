@@ -4,7 +4,6 @@
 	"description": "Names dictionary for CSpell.",
 	"author": "Pavel Sanchez",
 	"license": "MIT",
-	"private": true,
 	"publishConfig": {
 		"access": "public"
 	},
