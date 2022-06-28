@@ -1,0 +1,37 @@
+{
+	"name": "@palebludot/cspell-locations",
+	"version": "1.0.0",
+	"description": "Locations dictionary for CSpell.",
+	"author": "Pavel Sanchez",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "cspell-tools-cli compile \"locations.txt\" -o .",
+		"test": "locations.txt \"locations.txt\" | cspell -v -c ./cspell-ext.json \"--local=*\" \"--languageId=en-US\" stdin",
+		"prepublishOnly": "echo pre-publish",
+		"prepare": "npm run build"
+	},
+	"keywords": [
+		"cspell",
+		"cspell-ext",
+		"locations",
+		"locations",
+		"dictionary",
+		"spelling"
+	],
+	"files": [
+		"locations.txt",
+		"cspell-ext.json",
+		"*.js",
+		"*.d.ts"
+	],
+	"exports": {
+		".": "./cspell-ext.json",
+		"./cspell": "./cspell-ext.json",
+		"./cspell-ext.json": "./cspell-ext.json"
+	},
+	"homepage": "https://github.com/PaleBluDot/cspell-dictionaries/locations#readme",
+	"repository": "https://github.com/PaleBluDot/cspell-dictionaries/.git"
+}

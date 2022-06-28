@@ -1,0 +1,6 @@
+{
+	"version": "0.2",
+	"files": ["**/*.{md,txt}"],
+	"dictionaries": ["locations"],
+	"import": ["./cspell-ext.json"]
+}
