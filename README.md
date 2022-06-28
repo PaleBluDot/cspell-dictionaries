@@ -66,3 +66,29 @@ lerna publish [bump]
 4. `cp template/** dictionaries/<packageName>/`
 5. `lerna run prepare`
 6. `lerna run test`
+7. `lerna publish`
+
+## Updates Templates
+
+The templates files have these places holders to make updates using find/replace simple.
+
+- `<%= packageName %>`
+  - ex. `example`
+- `<%= fullPackageName %>`
+  - ex. `@palebludot/cspell-example`
+- `<%= friendlyName %>`
+  - ex `example`
+- `<%= name %>`
+  - ex `example`
+- `<%= description %>`
+  - ex `Example dictionary for CSpell.`
+- `<%= command %>`
+  - ex `compile`
+- `<%= local %>`
+  - ex `*`
+- `<%= languageId %>`
+  - ex `en-US`
+- `<%= dstFileName %>`
+  - ex `example.txt`
+- `<%= srcFile %>`
+  - ex `example.txt`
