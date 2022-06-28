@@ -1,6 +1,5 @@
 {
 	"name": "@pavel/cspell-dictionaries",
-	"private": true,
 	"devDependencies": {
 		"lerna": "^5.1.6",
 		"cross-env": "^7.0.3",
