@@ -1,0 +1,37 @@
+{
+	"name": "<%= fullPackageName %>",
+	"version": "1.0.0",
+	"description": "<%= description %>",
+	"author": "Pavel Sanchez",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "cross-env NODE_OPTIONS=--max_old_space_size=8192 cspell-tools-cli <%= command %> \"<%= srcFile %>\" -o .",
+		"test": "<%= srcFile %> \"<%= srcFile %>\" | cspell -v -c ./cspell-ext.json \"--local=<%= local %>\" \"--languageId=<%= languageId %>\" stdin",
+		"prepublishOnly": "echo pre-publish",
+		"prepare": "npm run build"
+	},
+	"keywords": [
+		"cspell",
+		"cspell-ext",
+		"<%= name %>",
+		"<%= friendlyName %>",
+		"dictionary",
+		"spelling"
+	],
+	"files": [
+		"<%= dstFileName %>",
+		"cspell-ext.json",
+		"*.js",
+		"*.d.ts"
+	],
+	"exports": {
+		".": "./cspell-ext.json",
+		"./cspell": "./cspell-ext.json",
+		"./cspell-ext.json": "./cspell-ext.json"
+	},
+	"homepage": "https://github.com/PaleBluDot/cspell-dictionaries/<%= name %>#readme",
+	"repository": "https://github.com/PaleBluDot/cspell-dictionaries/.git"
+}
