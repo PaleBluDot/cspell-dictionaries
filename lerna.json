@@ -1,0 +1,7 @@
+{
+	"npmClient": "npm",
+	"packages": ["dictionaries/*"],
+	"useNx": false,
+	"useWorkspaces": true,
+	"version": "independent"
+}

@@ -1,0 +1,13 @@
+{
+	"name": "@pavel/cspell-dictionaries",
+	"private": true,
+	"devDependencies": {
+		"lerna": "^5.1.6",
+		"cross-env": "^7.0.3",
+		"@cspell/cspell-tools": "^5.14.0",
+		"cspell": "^5.14.0"
+	},
+	"workspaces": [
+		"dictionaries/*"
+	]
+}
