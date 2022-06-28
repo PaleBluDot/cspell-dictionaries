@@ -3,5 +3,15 @@
 	"packages": ["dictionaries/*"],
 	"useNx": false,
 	"useWorkspaces": true,
-	"version": "independent"
+	"version": "independent",
+	"command": {
+		"publish": {
+			"conventionalCommits": true,
+			"ignoreChanges": ["*.md", "package-lock.json", "cspell.json"]
+		}
+	},
+	"changelogPreset": {
+		"name": "conventionalcommits",
+		"issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}"
+	}
 }
