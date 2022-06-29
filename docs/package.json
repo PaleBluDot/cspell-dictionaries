@@ -1,0 +1,12 @@
+{
+	"name": "@palebludot/cspell-docs",
+	"version": "1.0.0",
+	"description": "Documentation for `@palebludot/cspell-dictionaries`",
+	"author": "Pavel Sanchez",
+	"private": true,
+	"license": "MIT",
+	"repository": "https://github.com/PaleBluDot/cspell-dictionaries.git",
+	"scripts": {
+		"test": "echo \"Error: run tests from root\" && exit 1"
+	}
+}
