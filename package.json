@@ -19,7 +19,7 @@
 		"check-spelling": "cspell",
 		"checksum": "lerna run checksum",
 		"create": "lerna create",
-		"prepare": "lerna run prepare",
+		"prepare": "lerna run prepare --no-bail",
 		"publish": "lerna publish --conventional-commits"
 	}
 }
