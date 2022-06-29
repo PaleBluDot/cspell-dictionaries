@@ -1,0 +1,8 @@
+input: docs/
+output: dist/
+url: pbd-cspell.netlify.app
+branding:
+  title: CSpell Dictionaries
+  label: Docs
+footer:
+  copyright: "&copy; Copyright . [Pavel Sanchez](https://psd.sh) All rights reserved."

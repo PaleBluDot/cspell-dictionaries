@@ -1,6 +1,6 @@
 {
 	"npmClient": "npm",
-	"packages": ["dictionaries/*"],
+	"packages": ["dictionaries/*", "docs/*"],
 	"useNx": false,
 	"useWorkspaces": true,
 	"version": "independent",

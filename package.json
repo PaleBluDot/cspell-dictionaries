@@ -6,10 +6,12 @@
 		"conventional-changelog-conventionalcommits": "^5.0.0",
 		"cross-env": "^7.0.3",
 		"cspell": "^5.14.0",
-		"lerna": "^5.1.6"
+		"lerna": "^5.1.6",
+		"retypeapp": "2.3.0"
 	},
 	"workspaces": [
-		"dictionaries/*"
+		"dictionaries/*",
+		"docs/*"
 	],
 	"scripts": {
 		"test": "lerna run test",
