@@ -1,10 +1,13 @@
 airtable
 bulma
 commitlint
+Dotfiles
 eleventy
 emailhint
+mso
 palebludot
 pavelsanchez
+Powerlevel
 psanchez
 psdbk
 startburst
