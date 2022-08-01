@@ -44,11 +44,13 @@ Boggs
 Bonsitu
 Bosby
 Bosley
+Bostock
 Boudin
 Bowes
 Bowser
 Brasch
 Breonna
+Brickner
 Brownstein
 Bryn
 Burgum
@@ -95,8 +97,10 @@ Derechos
 Derzis
 Desir
 Diaz
+Dichtelmiller
 Diggs
 dmaynes
+Dobbs
 Donough
 Dooky
 Dormeus
@@ -107,11 +111,14 @@ Duchesne
 Dunleavy
 Duprey
 Ebke
+Emanu
 Epps
 Eulizier
 Evers
 Facci
 Fallin
+Fallon
+Fennell
 Fernandes
 Frakes
 Ganz
@@ -136,6 +143,7 @@ Hassell
 Haydel
 Healy
 Helsing
+Hickenlooper
 Higham
 Hochul
 Homayra
@@ -146,6 +154,7 @@ Hunton
 Hustan
 Ige
 Ivey
+Javonne
 Jayme
 Jen
 Jhovanka
@@ -156,6 +165,7 @@ Juro
 Kadyn
 Kaepernick
 Kamyar
+Kaplan
 Kary
 Kassandra
 Katz
@@ -183,6 +193,7 @@ Lathrop
 Layau
 Ledell
 Lewisburg
+Leyva
 Liggins
 Lisbin
 Lockman
@@ -226,8 +237,10 @@ NARAL
 Nassim
 Ndume
 Nerone
+Newsom
 Niki
 Nikila
+Nikole
 Nishihara
 Nkwonta
 Nolasco
@@ -272,6 +285,7 @@ Ricketts
 Rizelle
 Rosato
 Rosen
+Rouch
 Rowell
 Sajuti
 Samano
@@ -322,6 +336,7 @@ Tooele
 Towson
 Tranter
 Trayon
+Tremaine
 Trone
 Tuberville
 Tuckerman
@@ -342,6 +357,7 @@ Weingarten
 Welton
 Weneta
 Westbrook
+Whiteford
 Winans
 Wisch
 Wittman
