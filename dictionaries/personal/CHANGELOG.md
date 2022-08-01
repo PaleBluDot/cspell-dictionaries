@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.0](https://github.com/PaleBluDot/cspell-dictionaries/compare/@palebludot/cspell-personal@1.2.0...@palebludot/cspell-personal@1.3.0) (2022-08-01)
+
+
+### Features
+
+* commonly used tech ([b851962](https://github.com/PaleBluDot/cspell-dictionaries/commit/b8519621caab4d01779ae4ae05884f1b2a647ab1))
+
+
+
 ## [1.2.0](https://github.com/PaleBluDot/cspell-dictionaries/compare/@palebludot/cspell-personal@1.1.1...@palebludot/cspell-personal@1.2.0) (2022-07-13)
 
 
