@@ -5,6 +5,7 @@ Dotfiles
 eleventy
 emailhint
 mso
+nanorc
 palebludot
 pavelsanchez
 Powerlevel
@@ -12,3 +13,5 @@ psanchez
 psdbk
 startburst
 stylelint
+TikTok
+vimrc
