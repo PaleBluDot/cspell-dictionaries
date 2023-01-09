@@ -1,5 +1,6 @@
 Acadiana
 Bartow
+Beavercreek
 Broward
 Catoosa
 Fayette
@@ -8,6 +9,7 @@ Kanoa
 Kauaʻi
 Khara
 Maricopa
+Miami-Dade
 Middlesex
 Molokaʻi
 Montville
