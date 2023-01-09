@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.0](https://github.com/PaleBluDot/cspell-dictionaries/compare/@palebludot/cspell-names@1.2.0...@palebludot/cspell-names@1.3.0) (2023-01-09)
+
+
+### Features
+
+* new names ([a884958](https://github.com/PaleBluDot/cspell-dictionaries/commit/a88495892b96d17a5b9c05d2bcd561e97896fe4b))
+
+
+
 ## [1.2.0](https://github.com/PaleBluDot/cspell-dictionaries/compare/@palebludot/cspell-names@1.1.0...@palebludot/cspell-names@1.2.0) (2022-08-01)
 
 
