@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.0](https://github.com/PaleBluDot/cspell-dictionaries/compare/@palebludot/cspell-personal@1.4.0...@palebludot/cspell-personal@1.5.0) (2023-01-10)
+
+
+### Features
+
+* new itmes ([a1b5714](https://github.com/PaleBluDot/cspell-dictionaries/commit/a1b5714545d05d3a5aa5979133e8e5a861a57100))
+
+
+
 ## [1.4.0](https://github.com/PaleBluDot/cspell-dictionaries/compare/@palebludot/cspell-personal@1.3.0...@palebludot/cspell-personal@1.4.0) (2023-01-09)
 
 
